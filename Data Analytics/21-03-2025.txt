@@ -1,0 +1,27 @@
+PMT -> PAYMENT
+
+1) 100000 -> 2 YEAR -> 12.5%A
+
+1) DECIDE -> MONTHY
+	    QUATERLY
+	    HALY YEARLY
+	    YEARLY
+
+PMT-> PAYMENT
+PV-> PRESENT VALUE
+FV-> FUTURE VALUE
+NPER-> NUMBER PERIOD
+RATE-> RATE OF INTEREST
+MODE->START OR END
+
+PMT(RATE , NPER , PV , FV,MODE)
+
+pv(rate,nper,pmt,fv,modetype)
+
+fv(rate,nper,pmt,pv,modetype)
+
+nper(rate,pmt,pv,fv,modetype)
+
+ipmt(rate,per,nper,pv,fv.modetype)
+
+
