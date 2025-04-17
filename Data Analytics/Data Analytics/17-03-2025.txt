@@ -1,0 +1,64 @@
+address : 
+Refrence
+
+Relative
+Absolute
+3D refrencing
+Mixed
+
+
+IF -> 
+
+SUMIf
+CountIf
+
+if(condition,true value , false value)
+
+if salary <10000 -> 12.5% increment else 0
+
+
+0-5000 -> 15%
+5001 - 10000 -> 12.5%
+>10000 -> 0%
+
+Nested If  -> if function used inside another if function
+
+if( 
+	and(data >0 , data <5000), 
+	15%, 
+	if(
+		and(data>=5001 , data<=10000),
+		12.5%,
+		0%
+	)
+)
+
+=IF(
+	AND([@NET]>=0,[@NET]<=5000),
+	[@NET]*'Percentage Table'!$E$2,
+	IF(
+		AND([@NET]>=5001,[@NET]<=10000),
+		[@NET]*'Percentage Table'!$D$2,
+		0
+	)
+)
+Opeartors : special Characters which performs a predefined task
+
+Arithmetic Operator -> basic math calculation
++
+-
+*
+/
+%
+
+Comparision/Relational
+<
+>
+<=
+>=
+<>
+=
+
+Logical 
+and
+or
